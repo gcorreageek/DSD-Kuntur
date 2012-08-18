@@ -4,13 +4,15 @@
 Sistema de Matrícula
 
 
-Link Proyecto
-==========
-https://docs.google.com/spreadsheet/ccc?key=0Ai91ZBM7MKthdC05d3lhQlp4STd2cE1MOFBuMGJieFE
+Link Documento del Proyecto
+=============================
+https://docs.google.com/document/d/1M4s3tr_tlzJED5C-0ZlV_mYgmMMk26wVpiyQFRL7VUE/edit
+
 
 Link Seguimiento del Proyecto
 =============================
-https://docs.google.com/document/d/1M4s3tr_tlzJED5C-0ZlV_mYgmMMk26wVpiyQFRL7VUE/edit
+https://docs.google.com/spreadsheet/ccc?key=0Ai91ZBM7MKthdC05d3lhQlp4STd2cE1MOFBuMGJieFE
+
 
 Links Blogs del curso
 =============================
