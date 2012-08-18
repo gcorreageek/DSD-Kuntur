@@ -49,7 +49,7 @@ pageContext.setAttribute("codigoAlu", codigoAlu);
 
 <table border="1" WIDTH=80% align="center" id="mtable" > 
 		<tr align="center">
-			<td colspan="5">
+			<td colspan="6">
 			<font face="verdana">
 			<small><b><br>Detalle de los meses</br>
 			<br>
@@ -93,6 +93,12 @@ pageContext.setAttribute("codigoAlu", codigoAlu);
 			Suma a pagar
 			</font>
 			</td>
+			<td>
+			<font face="verdana">
+			Estado
+			</font>
+			</td>
+			
 		</tr>
 	
 
@@ -116,6 +122,10 @@ pageContext.setAttribute("codigoAlu", codigoAlu);
 					    	   	resultado+="<th><small><font face='verdana'>";
 					    	   	resultado+=data.costoMora;
 					    		resultado+="</font></small></th>";
+					    		resultado+="<th><small><font face='verdana'>";
+					    	   	resultado+=data.estado;
+					    		resultado+="</font></small></th>";
+					    		
 					    		$("#mtable").append(resultado);
 					    	   // $("#spanPX").html(resultado);
 					      

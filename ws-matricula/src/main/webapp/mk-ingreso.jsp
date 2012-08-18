@@ -4,13 +4,7 @@
 
 <%@page import="pe.edu.upc.dsd.ws.bean.Parent"%>
 <%@page import="java.util.List"%>
-<%
 
-if(session!=null) {
-	 session.invalidate();
-}
-	 
-%>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

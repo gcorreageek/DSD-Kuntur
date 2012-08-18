@@ -53,11 +53,16 @@ public class LoginController extends AbstractController
 			
 			logger.debug("Se validan los usuario: Usuario='" + usuario + "' Password : '"+password+"'");
 			
-			String mensaje = validarUsuario(usuario,password,request);
+			String mensaje = ""; 
+			mensaje = validarUsuario(usuario,password,request);
+			
+			logger.debug("Mensaje de validar usuario: "+mensaje+"'");
 			setAttributeToModel(request, "usuario", mensaje);
 			
+			//request.getSession().setAttribute("usuario", mensaje);
 			
-			if(mensaje=="")
+			
+			if(mensaje == "")
 				return new ModelAndView(VISTA_LOGIN_ING, getModel(request));
 			else
 				return new ModelAndView(VISTA_LOGIN, getModel(request));
@@ -110,7 +115,7 @@ public class LoginController extends AbstractController
 		String mensaje="";
 		Parent parent = service.obtenerParentUsuario(usuario, password);
 		
-		if(parent == null) mensaje = "Usuario o Clave incorrectos!";
+		if(parent ==null) mensaje = "Usuario o Clave incorrectos!";
 		else{
 			asignarSessionParents(request,parent);
 			

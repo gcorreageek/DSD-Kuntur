@@ -80,6 +80,12 @@ pageContext.setAttribute("inicio", inicio);
 </c:if>
 
 
+<c:if test="${model.persona.dni != null}">
+	<c:if test="${childrenParents[s].apPaterno != model.persona.apellidoPaterno && childrenParents[s].apMaterno != model.persona.apellidoMaterno}">
+		<font face="verdana" color="green"><b>El DNI ingresado no corresponde a su Hijo(a)</b></font>
+	</c:if>
+</c:if>
+
 <table  width="400" cellspacing="0" cellpadding="0" align="center" style="border-right: 1px solid #D2ae7b; border-LEFT: 1px solid #D2ae7b; border-TOP: 1px solid #D2ae7b;font-family:Verdana;font-size:small;">
 <tr><td colspan=2 align="center" style="border-bottom: 1px solid #D2ae7b;"><b>Datos Reniec</b></td></tr>
 <tr><td style="border-bottom: 1px solid #D2ae7b;" width="60%">DNI</td><td style="border-bottom: 1px solid #D2ae7b;border-left: 1px solid #D2ae7b;">${model.persona.dni}</td></tr>    
@@ -102,7 +108,10 @@ pageContext.setAttribute("inicio", inicio);
 				
 </table>
 --->
+
 <c:if test="${model.persona.dni != null}">
+
+<c:if test="${childrenParents[s].apPaterno.equals(model.persona.apellidoPaterno) && childrenParents[s].apMaterno.equals(model.persona.apellidoMaterno)}">
 
 	<table border="1" WIDTH=35% height=5% align="center" > 
 			<tr>
@@ -119,7 +128,7 @@ pageContext.setAttribute("inicio", inicio);
 			<td><font face="verdana"><small>Si el número del documento ingresado es correcto presione "Grabar DNI" para continuar</small></font></td>
 			</tr>
 	</table>
-	
+	</c:if>
 </c:if>
 
 </div>
