@@ -20,6 +20,7 @@ Links Blogs del curso
 Jorge Camarena   :  jorgemaximo1.blogspot.com<br>
 Martin Hijar     :  dsd-kuntur-mhijar.blogspot.com<br>
 Jorge Rozas      :  http://www.jorgerozas.com/<br>
+Kike Llanos      :  http://diariodebicimoto.blogspot.com/<br>
 
 
 
