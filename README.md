@@ -12,6 +12,14 @@ Link Seguimiento del Proyecto
 =============================
 https://docs.google.com/document/d/1M4s3tr_tlzJED5C-0ZlV_mYgmMMk26wVpiyQFRL7VUE/edit
 
+Links Blogs del curso
+=============================
+
+Jorge Camarena   :  jorgemaximo1.blogspot.com
+Martin Hijar     :  dsd-kuntur-mhijar.blogspot.com
+Jorge Rozas      :  http://www.jorgerozas.com/
+
+
 
 Links modificación de datos REST
 =================================
