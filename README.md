@@ -15,9 +15,9 @@ https://docs.google.com/document/d/1M4s3tr_tlzJED5C-0ZlV_mYgmMMk26wVpiyQFRL7VUE/
 Links Blogs del curso
 =============================
 
-Jorge Camarena   :  jorgemaximo1.blogspot.com
-Martin Hijar     :  dsd-kuntur-mhijar.blogspot.com
-Jorge Rozas      :  http://www.jorgerozas.com/
+Jorge Camarena   :  jorgemaximo1.blogspot.com<br>
+Martin Hijar     :  dsd-kuntur-mhijar.blogspot.com<br>
+Jorge Rozas      :  http://www.jorgerozas.com/<br>
 
 
 
